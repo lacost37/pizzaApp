@@ -13,6 +13,11 @@
 		047B9CD929360DD100B0866A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047B9CD729360DD100B0866A /* Main.storyboard */; };
 		047B9CDB29360DD300B0866A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047B9CDA29360DD300B0866A /* Assets.xcassets */; };
 		047B9CDE29360DD300B0866A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047B9CDC29360DD300B0866A /* LaunchScreen.storyboard */; };
+		0493BF18293635FB005527ED /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493BF17293635FB005527ED /* FoodViewController.swift */; };
+		0493BF1A29364532005527ED /* PizzaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493BF1929364532005527ED /* PizzaViewController.swift */; };
+		0493BF1C293666C1005527ED /* MargaritaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493BF1B293666C1005527ED /* MargaritaViewController.swift */; };
+		0493BF1E293666D3005527ED /* PepperoniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493BF1D293666D3005527ED /* PepperoniViewController.swift */; };
+		04FCAFB029377CBC00D5122F /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FCAFAF29377CBC00D5122F /* PaymentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		047B9CDA29360DD300B0866A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047B9CDD29360DD300B0866A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047B9CDF29360DD300B0866A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0493BF17293635FB005527ED /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		0493BF1929364532005527ED /* PizzaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaViewController.swift; sourceTree = "<group>"; };
+		0493BF1B293666C1005527ED /* MargaritaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargaritaViewController.swift; sourceTree = "<group>"; };
+		0493BF1D293666D3005527ED /* PepperoniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepperoniViewController.swift; sourceTree = "<group>"; };
+		04FCAFAF29377CBC00D5122F /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				047B9CD129360DD100B0866A /* AppDelegate.swift */,
 				047B9CD329360DD100B0866A /* SceneDelegate.swift */,
 				047B9CD529360DD100B0866A /* ViewController.swift */,
+				0493BF17293635FB005527ED /* FoodViewController.swift */,
+				0493BF1929364532005527ED /* PizzaViewController.swift */,
+				0493BF1B293666C1005527ED /* MargaritaViewController.swift */,
+				0493BF1D293666D3005527ED /* PepperoniViewController.swift */,
+				04FCAFAF29377CBC00D5122F /* PaymentViewController.swift */,
 				047B9CD729360DD100B0866A /* Main.storyboard */,
 				047B9CDA29360DD300B0866A /* Assets.xcassets */,
 				047B9CDC29360DD300B0866A /* LaunchScreen.storyboard */,
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0493BF1E293666D3005527ED /* PepperoniViewController.swift in Sources */,
+				0493BF1A29364532005527ED /* PizzaViewController.swift in Sources */,
+				0493BF1C293666C1005527ED /* MargaritaViewController.swift in Sources */,
+				04FCAFB029377CBC00D5122F /* PaymentViewController.swift in Sources */,
 				047B9CD629360DD100B0866A /* ViewController.swift in Sources */,
 				047B9CD229360DD100B0866A /* AppDelegate.swift in Sources */,
+				0493BF18293635FB005527ED /* FoodViewController.swift in Sources */,
 				047B9CD429360DD100B0866A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +315,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +344,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
